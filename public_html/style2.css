@@ -1,0 +1,104 @@
+.container{
+	width:100%;
+	background-color:#f5f5f5;
+	height:100%;
+    position: fixed;
+	z-index:100000000;
+	top:0px;
+	left:0px;
+
+}
+
+.login {
+	width:350px;
+	height:auto;
+	margin: 100px auto;
+	border-radius:20px;
+	background-color:#ffffff;
+}
+
+.login img{
+	float:right;
+}
+
+.login input{
+	width:300px;
+	margin-left: 10px;
+}
+
+.login button{
+	width:120px;
+	margin: 2% 20%;
+}
+
+.login p{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:22px;
+	text-align:center;
+	margin:0px;
+}
+
+.botoes{
+	width:200px;
+	height:50px;
+	padding:15px;
+	margin:15px;
+	border: 2px solid red;
+	background-color: white;
+	color: red;
+	border-radius: 7px;
+}
+
+.botoes:hover {
+    text-align: center;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+.sistemas{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    float: left;
+	z-index:1;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+	position:absolute;
+	width: 150px;
+    height: 100%;
+	float:left;
+	background-color:black;
+	color:white;
+	z-index:2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333333;
+}
+
+
+.sistemas{
+		filter: grayscale(80%);
+}
+.sistemas:hover{
+	filter:none;
+
+}
+
